@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+class MyClass {
+public:
+    // Constructor
+    MyClass() {
+    cout << "Constructor called" << endl;
+    }
+    void print(){
+        cout<<"hello";
+       
+    }
+    };
+
+    // Destructor
+    //~MyClass() {
+      //  cout << "Destructor called" << endl;
+    //}
+//};
+
+int main() {
+    // Creating an object of MyClass
+    MyClass obj;
+    obj.print();
+
+    // Program ends, object goes out of scope
+    return 0;
+}
